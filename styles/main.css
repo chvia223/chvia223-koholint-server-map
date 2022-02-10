@@ -155,10 +155,21 @@ RIGHT MENU
     margin-left: auto;
     margin-right: auto;
     height:94vh;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
-#default-map {
+#displayed-map {
+    /* position: relative; */
+    z-index: 1;
     height: 100%;
     width: auto;
 }
+
+/* #region-overlay {
+    position: absolute;
+    float: left;
+    margin-right: -100%;
+    z-index: 2;
+    height: 100%;
+    width: auto;
+} */
