@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    margin-top: 10px;
+    margin-inline: 8px;
+    margin-bottom: 6px;
+    min-width: 755px;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: start;
+}
+
+/* 
+#############################################
+LEFT MENU 
+#############################################
+*/
+
+#left-menu {
+    order: 1;
+    flex: 1 1 auto;
+    color: grey;
+    text-align: center;
+    /* background-color: white; */
+    width: 20%;    
+}
+
+#left-button-container {
+    float: right;
+    height: auto;
+
+    margin-right: 2em;
+    margin-top: 2em;
+
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 1em;
+
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(224, 235, 235, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(132, 190, 228, 0.2), 0 6px 20px 0 rgba(157, 222, 241, 0.19);
+    /* border-color: rgb(131, 175, 175, 0.5); */
+
+    /* background-color: rgb(224, 235, 235, 0.4); */
+    background-color: rgb(131, 175, 175, 0.5);
+}
+
+#left-button-container div {
+    width: 10em;
+    text-align: left;
+}
+
+#left-button-container input{
+    float: right;
+    width: auto;
+}
+
+#left-button-container text{
+    text-align: left;
+    width: auto;
+    padding-right: 0em;
+    color: whitesmoke;
+}
+
+
+/* 
+#############################################
+RIGHT MENU 
+#############################################
+*/
+
+#right-menu {
+    order: 3;
+    flex: 1 1 auto;
+    color: grey;
+    text-align: center;
+    /* background-color: white; */
+    width: 20%;    
+}
+
+#right-button-container {
+    float: left;
+    height: auto;
+
+    margin-left: 2em;
+    margin-top: 2em;
+
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 1em;
+
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(224, 235, 235, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(132, 190, 228, 0.2), 0 6px 20px 0 rgba(157, 222, 241, 0.19);
+
+    background-color: rgb(131, 175, 175, 0.5);
+}
+
+#right-button-container div {
+    width: 10em;
+    text-align: center;
+}
+
+#right-button-container select{
+    width: auto;
+    margin-top: 10px;
+}
+
+#right-button-container text{
+    width: auto;
+    padding-right: 0em;
+    color: whitesmoke;
+}
+
+
+/*  */
+
+#right-menu-buttons {
+    order: 3;
+    flex: 1 1 auto;
+    color: grey;
+    text-align: center;
+    /* background-color: white; */
+    width: 20%;
+    padding-left: 2em;
+
+    padding-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 1em;
+}
+
+#right-menu-buttons button{
+    float: left;
+    width: auto;
+}
+
+#map-holder {
+    order: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:94vh;
+    background-color: aqua;
+}
+
+#default-map {
+    height: 100%;
+    width: auto;
+}

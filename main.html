@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koholint Map</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="main-page">
+        <div id="left-menu">
+            <div id="left-button-container">
+                <div>
+                    <text>Region Borders:</text>
+                    <input type="checkbox" id="region-borders-checkbox"></input>
+                </div>
+                <div>
+                    <text>Player Bases:</text>
+                    <input type="checkbox" id="player-bases-checkbox"></input>
+                </div>
+                <div>
+                    <text>Roads:</text>
+                    <input type="checkbox" id="roads-checkbox"></input>
+                </div>
+                <div>
+                    <text>Railways:</text>
+                    <input type="checkbox" id="railways-checkbox"></input>
+                </div>
+            </div>
+        </div>
+
+        <div id="map-holder">
+            <img src="images/koho-world-map.png" id="default-map">
+        </div>
+
+        <div id="right-menu">
+            <div id="right-button-container">
+                <div>
+                    <text>Regions:</text>
+                    <select id="region-selector" placeholder="Koho Region">
+                        <option value="Nix Terra">The Western Reaches</option>
+                        <option value="Kokiri">The Resting Grounds</option>
+                        <option value="Kokiri">Tal Tal Mountains</option>
+                        <option value="Kokiri">Scandinavialand</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
